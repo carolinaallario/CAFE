@@ -1,0 +1,44 @@
+/* inicia tabla */
+
+.listado {
+    background-color: rgb(209, 209, 209);
+}
+
+.tabla{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-area: tabla;
+    grid-template-areas: "nav" 
+    "tabla" 
+    "footer";            
+    th{
+        background-color: #222831;
+        color: #fff;
+        text-align: center;
+        font-weight: 500;
+        width: 50%;
+        padding: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        text-transform: uppercase;
+        border: 0.1rem solid #797878;
+    }
+    td{
+        font-weight: 450;
+        color: #000;
+        text-align: center;
+        height: 1rem;
+        padding: 1rem;
+        margin: 12rem;
+        width: 4rem;
+    }
+    tr{
+        transition: 0.3s;
+    } 
+    tr:hover{
+            background-color: #7978785b;
+        }
+    }
+
+/* termina tabla */

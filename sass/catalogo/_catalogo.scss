@@ -1,0 +1,45 @@
+/* inicia catalogo */
+
+.catalogo{
+    background-color: rgb(209, 209, 209);
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;  
+    grid-template-rows: auto auto auto;
+    grid-area: galeria;
+    grid-template-areas: "nav nav nav"
+    "galeria galeria galeria"
+    "footer footer footer";
+    justify-items: space-between;          
+figure{
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    }
+figcaption{
+    margin-top: 1rem;
+    }
+img{
+    border: 0.1rem solid #afafafb4;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    }
+img:hover{
+    border: 0.1rem solid #2b2b2b;
+    }
+h2 a:hover{
+    color: #797878;
+    }
+
+    }
+
+
+
+.image{
+    height: 70%;
+    width: 90%;
+}
+
+/* termina catalogo */
